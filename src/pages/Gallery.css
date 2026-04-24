@@ -1,0 +1,50 @@
+.gallery-page { padding-top: 80px; }
+
+.gallery-header { background: var(--ink); padding: 80px 0 60px; border-bottom: 1px solid rgba(201,168,76,0.2); }
+.gallery-heading { font-size: clamp(28px, 4vw, 52px); color: var(--ivory); font-weight: 300; line-height: 1.2; }
+.gallery-subhead { color: var(--stone-light); margin-top: 8px; font-size: 15px; }
+
+.gallery-search-wrap { margin: 40px 0 0; }
+
+.gallery-search {
+  width: 100%; max-width: 480px; padding: 12px 20px;
+  background: transparent; border: 1px solid var(--stone-light);
+  color: var(--ink); font-family: var(--font-body); font-size: 14px;
+  outline: none; transition: border-color var(--transition);
+}
+.gallery-search:focus { border-color: var(--gold); }
+.gallery-search::placeholder { color: var(--stone); }
+
+.filters { padding: 28px 0 8px; display: flex; flex-direction: column; gap: 16px; }
+
+.filter-group { display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
+
+.filter-label { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--stone); padding-top: 8px; min-width: 60px; }
+
+.filter-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.chip {
+  padding: 6px 14px; font-size: 12px; letter-spacing: 0.08em;
+  background: transparent; border: 1px solid var(--stone-light);
+  color: var(--ink-mid); cursor: pointer;
+  transition: all var(--transition); font-family: var(--font-body);
+}
+.chip:hover { border-color: var(--gold); color: var(--gold-dark); }
+.chip.active { background: var(--gold); border-color: var(--gold); color: var(--ink); }
+
+.filter-reset {
+  align-self: flex-start; padding: 6px 16px;
+  font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase;
+  background: none; border: 1px solid var(--terra); color: var(--terra);
+  cursor: pointer; font-family: var(--font-body); transition: all var(--transition); margin-top: 4px;
+}
+.filter-reset:hover { background: var(--terra); color: #fff; }
+
+.gallery-count { font-size: 12px; letter-spacing: 0.1em; color: var(--stone); padding: 20px 0 32px; border-bottom: 1px solid var(--ivory-dark); margin-bottom: 40px; }
+
+.gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; padding-bottom: 80px; }
+
+.gallery-empty { text-align: center; padding: 80px 0; color: var(--stone); font-family: var(--font-display); font-size: 20px; }
+
+@media (max-width: 900px) { .gallery-grid { grid-template-columns: 1fr 1fr; gap: 24px; } }
+@media (max-width: 580px) { .gallery-grid { grid-template-columns: 1fr; } }
