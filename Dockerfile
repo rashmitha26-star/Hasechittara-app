@@ -10,7 +10,7 @@ COPY . .
 RUN npm run build
 
 # Stage 2: Serve with nginx on port 3000
-FROM nginx:alpine
+FROM public.ecr.aws/nginx/nginx:alpine
 
 # Remove default nginx config
 RUN rm /etc/nginx/conf.d/default.conf
