@@ -3,19 +3,19 @@ import './WomenEmpowerment.css'
 
 const stories = [
   {
-    name: 'Savithri Deewaru',
+    name: 'Renukamma',
     role: 'Master Artist',
-    story: 'Savithri has been painting Chittara for over 30 years. Through this platform, she now earns a sustainable income and has trained 12 young women in her village.',
+    story: 'Renukamma has been painting Chittara for over 30 years. Through this platform, she now earns a sustainable income and has trained 12 young women in her village.',
   },
   {
-    name: 'Lakshmi Bai',
+    name: 'Ravichandra D',
     role: 'Community Leader & Artist',
-    story: 'Lakshmi leads the women\'s collective in Hasunvanthe. She believes Chittara is not just art — it is the voice of their community, and selling it gives that voice power.',
+    story: 'Ravichandra leads the women\'s collective in Hasunvanthe. He believes Chittara is not just art — it is the voice of their community, and selling it gives that voice power.',
   },
   {
-    name: 'Radha Deewaru',
+    name: 'Usha G A',
     role: 'Young Artist',
-    story: 'At 22, Radha is one of the youngest Chittara artists. She combines traditional patterns with contemporary themes, keeping the art form alive for a new generation.',
+    story: 'Usha is one of the passionable Chittara artists. She combines traditional patterns with contemporary themes, keeping the art form alive for a new generation.',
   },
 ]
 

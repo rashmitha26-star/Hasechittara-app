@@ -7,7 +7,17 @@ import './About.css'
 const TEAM = [
   { name: 'Ravichandra D', role: 'President', bio: 'Author of "Hase Chittara" — the definitive cultural documentation of the Chittara art tradition. Art historian specialising in South Asian visual traditions and folk art of Karnataka.' },
   { name: 'Meghana M B', role: 'Secretary', bio: 'PhD in Heritage Studies, Jawaharlal Nehru University. Documents endangered craft traditions across rural India.' },
-  { name: 'Usha G A', role: 'Vice secretary', bio: 'Oversees digitisation and metadata standards for the collection. Previously with the British Library Asian & African Studies division.' },
+  { name: 'Usha G A', role: 'Vice Secretary', bio: 'Oversees digitisation and metadata standards for the collection. Previously with the British Library Asian & African Studies division.' },
+  { name: 'Laxmamma Gademane', role: 'Chief Promoter', bio: 'Dedicated to promoting and preserving the Chittara art tradition within the Deewaru community and beyond.' },
+  { name: 'Chandrashekhar Sirivante', role: 'Team Member', bio: 'Supports the preservation and promotion of heritage art and cultural traditions of Karnataka.' },
+  { name: 'Suresh Balegundi', role: 'Team Member', bio: 'Actively involved in outreach and community engagement initiatives for traditional art forms.' },
+  { name: 'Nagaraj Nerige', role: 'Team Member', bio: 'Works on documentation and research of folk art traditions in rural Karnataka.' },
+  { name: 'Dr. Mohan Chandragutti', role: 'Team Member', bio: 'Academic advisor specializing in cultural heritage and traditional art forms.' },
+  { name: 'Krishnamurthy Mandagalale', role: 'Team Member', bio: 'Contributes to heritage conservation efforts and community outreach programs.' },
+  { name: 'Shridhar Idur', role: 'Team Member', bio: 'Supports the mission of preserving and promoting indigenous art traditions.' },
+  { name: 'Dr. Neelesh', role: 'Team Member', bio: 'Research consultant specializing in folk art and cultural studies.' },
+  { name: 'Dr. Annaporna', role: 'Team Member', bio: 'Academic advisor focusing on heritage preservation and cultural documentation.' },
+  { name: 'Dr. Shivappa', role: 'Team Member', bio: 'Advisor on traditional art forms and their contemporary relevance.' },
 ]
 
 const INTRO_ITEMS = [
